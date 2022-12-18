@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Percentage Calculator</title>
+    <script>
+        function findPercentage(totalMarks)
+        {
+            if(totalMarks<=300){
+                document.write("Percentage="+(totalMarks/3)+"%<br/>");
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: pink;
+        }
+
+        .btn-input{
+            border: 1px solid black;
+            margin-left:auto;
+        }
+    </style>
+</head>
+<body>
+    <h2 align="center">Percentage Calculator</h2>
+    <center>
+        <form id="myForm">
+            Enter Total Marks: <input type="text" id="TotalMarks" value="TotalMarks"/><br/><br/>
+            <input class="btn-input" type="button" id="Percentage" value="Percentage" onclick="findPercentage(TotalMarks.value)"/>
+        </form>
+    </center>
+</body>
+</html>

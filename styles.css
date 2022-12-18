@@ -5,6 +5,14 @@
     padding: 0px;
 }
 
+h2{
+    color:white;
+}
+
+span{
+    color:white;
+}
+
 body{
     font-family: 'Exo', sans-serif;
 }
